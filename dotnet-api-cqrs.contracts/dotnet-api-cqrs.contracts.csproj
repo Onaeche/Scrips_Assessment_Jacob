@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>dotnet_api_cqrs.contracts</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="dto\" />
+    <None Remove="services\" />
+    <None Remove="data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="dto\" />
+  </ItemGroup>
+</Project>
